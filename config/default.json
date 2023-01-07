@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "yaroslaw dorosh",
+    "mongoUri": "mongodb+srv://Dorosh:836583werx@cluster0.uztb4fi.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}

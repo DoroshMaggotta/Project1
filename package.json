@@ -1,0 +1,39 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoroshMaggotta/Project1.git"
+  },
+  "keywords": [
+    "mern",
+    "react"
+  ],
+  "author": "Dorochenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoroshMaggotta/Project1/issues"
+  },
+  "homepage": "https://github.com/DoroshMaggotta/Project1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "config": "^3.2.4",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}
