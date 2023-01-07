@@ -4,7 +4,7 @@ import {useRoutes} from "./routes";
 import {BrowserRouter} from "react-router-dom";
 
 function App() {
-  const routes = useRoutes(false)
+  const routes = useRoutes(true)
   return (
       <BrowserRouter>
           {routes}
